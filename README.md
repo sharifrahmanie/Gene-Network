@@ -1,5 +1,6 @@
 # Gene-Network
 Gene network analysis using iGraph package
+```{r }
 require(igraph)
 
 load("data.RData")
@@ -45,3 +46,5 @@ plot(
   edge.width=edgeweights,
   edge.arrow.mode=0,
   main="")
+
+```
